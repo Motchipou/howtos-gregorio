@@ -1,5 +1,13 @@
 # howtos-gregorio
 
+1. vim README.md
+2. git status (README.md en _rouge_)
+3. git add README.md
+4. git status (README.md en _vert_)
+5. git commit -m "README.md modif 3"
+6. git push (user:Motchipou - pwd:[xxxxx])
+
+	
 mar 16.06.2015
 
 GitHub tutorial  -  GitHub For Beginners: Don't Get Scared, Get Started
@@ -16,35 +24,38 @@ GitHub tutorial  -  GitHub For Beginners: Don't Get Scared, Get Started
 
 
 
-## Mémento - GitHub modifications
+### Mémento - GitHub modifications
 
-### Step 1. - vim README.md
+#### Step 1. - vim README.md
 
-### Step 2. - get status
+#### Step 2. - get status
 
 Le fichier 'README.md' (modifié en 'Step 1') a le statut "rouge".
+
 Ne fait (font) pas partie des fichiers prêt à être committé (= validé) pcq
 modifié ou nouvellement créé.
 
-### Step 3. - git add
+#### Step 3. - git add
 
 git add README.md
 
-### Step 4. - git status
+#### Step 4. - git status
 
 Le fichier 'README.md' ayant été ajouté à la liste d'attente ('git ad') 
 paraît en "vert" = prêt à être validé (ou 'committé')
 
-### Step 5. - git commit
+#### Step 5. - git commit
 
 git commit -m "Message de commit" (Pq modif ou Description nouveau fichier
 
 
-### Step 6. - git push
+#### Step 6. - git push
 
 git push
 
+
 User name : Motchipou
+
 Password  : *********
 
 
