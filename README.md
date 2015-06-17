@@ -1,6 +1,6 @@
 # howtos-gregorio
 
-README.md - v.a0.10 - 2015.06.17
+README.md - v.a0.12 - 2015.06.17
 mar 16.06.2015 (Date de création)
 
 1. vim README.md
@@ -60,7 +60,7 @@ User name : Motchipou
 Password  : xxxxxxxxxx
 
 
-__Attention !!!__  
+__Attention !!!__    :exclamation:     
   
 1. 'Cloner' le repo :
 
@@ -181,4 +181,18 @@ __Attention !!!__
    > C:\Users\Etienne\github\howtos-gregorio>   
    > gvim README.md   
 
+
+#### ChangeLog  
+
+V. a0.01 Bd12 - 2015.06.17
+   * README.md - Ajout du versioning
+   * README.md - Editor = gedit vs gvim
+   * README.md - Ajout ChangeLog
+   * README.md - :exclamation: (emoticon \:exclamation\:) cf. http://www.emoji-cheat-sheet.com  
+                 (cf. _Pro Git_, a press, pdf téléchargeable online - 574 pp)
+                 
+
+### TODO 
+   [ ] Insertion d'images dans '*.md' (README.md etc. - Markdown)
+   [ ] Markdown Cheat Sheet.md (Mémemnto)
 
