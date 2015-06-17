@@ -102,13 +102,13 @@ __Attention !!!__
 7. C:\Users\Etienne\github>
    > dir  
 
-	 Le volume dans le lecteur C s’appelle HP  
-   Le numéro de série du volume est 2C7C-F0D4  
+   > Le volume dans le lecteur C s’appelle HP  
+     Le numéro de série du volume est 2C7C-F0D4  
   
-   Répertoire de C:\Users\Etienne\github  
+   > Répertoire de C:\Users\Etienne\github  
   
-   16/06/2015  20:57    <REP>          .  
-   16/06/2015  20:57    <REP>          ..  
+   > 16/06/2015  20:57    <REP>          .  
+     16/06/2015  20:57    <REP>          ..  
                   0 fichier(s)                0 octets  
                   2 Rép(s)  531.394.404.352 octets libres  
     
@@ -129,16 +129,16 @@ __Attention !!!__
    >               0 fichier(s)                0 octets  
    >               2 Rép(s)  531.392.933.888 octets libres  
   
- 9. cd ..  
+9. cd ..  
    > C:\Users\Etienne\github>  
    > cd ..  
 
 10. __git clone https://github.com/Motchipou/howtos-gregorio.git__   
-   > C:\Users\Etienne\github>
-   > git clone https://github.com/Motchipou/howtos-gregorio.git   
+   > C:\Users\Etienne\github>  
+     git clone https://github.com/Motchipou/howtos-gregorio.git   
 
    > Cloning into 'howtos-gregorio'...   
-   > remote: Counting objects: 16, done.   
+     remote: Counting objects: 16, done.   
      remote: Compressing objects: 100% (12/12), done.  
      remote: Total 16 (delta 2), reused 15 (delta 1), pack-reused 0  
      Unpacking objects: 100% (16/16), done.  
@@ -146,9 +146,9 @@ __Attention !!!__
 
 11. dir  
    > C:\Users\Etienne\github>  
-   > dir  
-   Le volume dans le lecteur C s’appelle HP  
-   Le numéro de série du volume est 2C7C-F0D4  
+     dir  
+     Le volume dans le lecteur C s’appelle HP  
+     Le numéro de série du volume est 2C7C-F0D4  
 
    > Répertoire de C:\Users\Etienne\github  
   
@@ -160,7 +160,7 @@ __Attention !!!__
   
 12. cd howtos-gregorio  
    > C:\Users\Etienne\github>  
-   > cd howtos-gregorio  
+     cd howtos-gregorio  
 
 13. C:\Users\Etienne\github\howtos-gregorio>
    > dir  
