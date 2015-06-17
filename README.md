@@ -1,6 +1,6 @@
 # howtos-gregorio
 
-README.md - v.a0.12 - 2015.06.17
+README.md - v.a0.14 - 2015.06.17
 mar 16.06.2015 (Date de création)
 
 1. vim README.md
@@ -10,7 +10,7 @@ mar 16.06.2015 (Date de création)
 5. git commit -m "README.md modif 3"
 6. git push (user:Motchipou - pwd:[xxxxx])
 
-	
+
 
 GitHub tutorial  -  GitHub For Beginners: Don't Get Scared, Get Started
 
@@ -38,35 +38,35 @@ modifié ou nouvellement créé.
 
 ###### Step 3. - git add
 
-git add README.md
+     git add README.md
 
 ###### Step 4. - git status
 
-Le fichier 'README.md' ayant été ajouté à la liste d'attente ('git ad') 
+Le fichier 'README.md' ayant été ajouté à la liste d'attente ('git ad')
 paraît en "vert" = prêt à être validé (ou 'committé')
 
 ###### Step 5. - git commit
 
-git commit -m "Message de commit" (Pq modif ou Description nouveau fichier
+     git commit -m "Message de commit"  
+
+(Pq modif ou Description nouveau fichier)  
 
 
 ###### Step 6. - git push
 
-git push
+     git push
+
+     User name : Motchipou
+     Password  : xxxxxxxxxx
 
 
-User name : Motchipou
+__Attention__    :exclamation:
 
-Password  : xxxxxxxxxx
+'Cloner' le repo :
 
+       git clone https://github.com/Motchipou/howtos-gregorio.git
 
-__Attention !!!__    :exclamation:     
-  
-1. 'Cloner' le repo :
-
-    > git clone https://github.com/Motchipou/howtos-gregorio.git   
-
-		(voir point (9) ci-après pour plus de détails) 
+(voir point (9) ci-après pour plus de détails)
 
 
 
@@ -74,125 +74,130 @@ __Attention !!!__    :exclamation:
 
 1. __git --version__  
    En mode 'Terminal' (Sous DOS) :
-   > C:\Users\Etienne  
-   > git --version  
-   > git version 1.9.5.msysgit.1
+
+       C:\Users\Etienne  
+       git --version  
+       git version 1.9.5.msysgit.1
 
 2. __git config --global user.name "Motchipou"__
-   > C:\Users\Etienne>  
-   > git config --global user.name "Motchipou"
+       C:\Users\Etienne>  
+       git config --global user.name "Motchipou"
 
 3. __git config --global user.email "moreau.etienne@gmail.com"__  
-   > C:\Users\Etienne>  
-   > git config --global user.email "moreau.etienne@gmail.com"  
+       C:\Users\Etienne>  
+       git config --global user.email "moreau.etienne@gmail.com"  
 
 4. md github  
-   > C:\Users\Etienne>  
-   > md github
+       C:\Users\Etienne>  
+       md github
 
 5. cd github  
-   > C:\Users\Etienne>  
-   > cd github
+       C:\Users\Etienne>  
+       cd github
 
 6. __git init__
-   > C:\Users\Etienne\github>  
-   > git init  
-   > Initialized empty Git repository in C:/Users/Etienne/github/.git/  
+       C:\Users\Etienne\github>  
+       git init  
+       Initialized empty Git repository in C:/Users/Etienne/github/.git/  
 
 7. C:\Users\Etienne\github>
-   > dir  
+       dir  
 
-   > Le volume dans le lecteur C s’appelle HP  
-     Le numéro de série du volume est 2C7C-F0D4  
-  
-   > Répertoire de C:\Users\Etienne\github  
-  
-   > 16/06/2015  20:57    <REP>          .  
-     16/06/2015  20:57    <REP>          ..  
+       Le volume dans le lecteur C s’appelle HP  
+       Le numéro de série du volume est 2C7C-F0D4  
+
+       Répertoire de C:\Users\Etienne\github  
+
+       16/06/2015  20:57    <REP>          .  
+       16/06/2015  20:57    <REP>          ..  
                   0 fichier(s)                0 octets  
                   2 Rép(s)  531.394.404.352 octets libres  
-    
+
 8. git remote add origin https://github.com/Motchipou/howtos-gregorio.git  
-   > C:\Users\Etienne\github>  
-   > git remote add origin https://github.com/Motchipou/howtos-gregorio.git  
-  
-   > C:\Users\Etienne\github>  
-   > dir  
+       C:\Users\Etienne\github>  
+       git remote add origin https://github.com/Motchipou/howtos-gregorio.git  
 
-   > Le volume dans le lecteur C s’appelle HP  
-   > Le numéro de série du volume est 2C7C-F0D4  
-  
-   > Répertoire de C:\Users\Etienne\github  
-  
-   > 16/06/2015  20:57    <REP>          .  
-   > 16/06/2015  20:57    <REP>          ..  
-   >               0 fichier(s)                0 octets  
-   >               2 Rép(s)  531.392.933.888 octets libres  
-  
+       C:\Users\Etienne\github>  
+       dir  
+
+       Le volume dans le lecteur C s’appelle HP  
+       Le numéro de série du volume est 2C7C-F0D4  
+
+       Répertoire de C:\Users\Etienne\github  
+
+       16/06/2015  20:57    <REP>          .  
+       6/06/2015  20:57    <REP>          ..  
+                  0 fichier(s)                0 octets  
+                  2 Rép(s)  531.392.933.888 octets libres  
+
 9. cd ..  
-   > C:\Users\Etienne\github>  
-   > cd ..  
+       C:\Users\Etienne\github>  
+       cd ..  
 
-10. __git clone https://github.com/Motchipou/howtos-gregorio.git__   
-   > C:\Users\Etienne\github>  
-     git clone https://github.com/Motchipou/howtos-gregorio.git   
+10. __git clone__ https://github.com/Motchipou/howtos-gregorio.git__
+        C:\Users\Etienne\github>  
+        git clone https://github.com/Motchipou/howtos-gregorio.git
 
-   > Cloning into 'howtos-gregorio'...   
-     remote: Counting objects: 16, done.   
-     remote: Compressing objects: 100% (12/12), done.  
-     remote: Total 16 (delta 2), reused 15 (delta 1), pack-reused 0  
-     Unpacking objects: 100% (16/16), done.  
-     Checking connectivity... done.  
+        Cloning into 'howtos-gregorio'...
+        remote: Counting objects: 16, done.
+        remote: Compressing objects: 100% (12/12), done.  
+        remote: Total 16 (delta 2), reused 15 (delta 1), pack-reused 0  
+        Unpacking objects: 100% (16/16), done.  
+        Checking connectivity... done.  
 
 11. dir  
-   > C:\Users\Etienne\github>  
-     dir  
-     Le volume dans le lecteur C s’appelle HP  
-     Le numéro de série du volume est 2C7C-F0D4  
+        C:\Users\Etienne\github>  
+        dir  
+        Le volume dans le lecteur C s’appelle HP  
+        Le numéro de série du volume est 2C7C-F0D4  
 
-   > Répertoire de C:\Users\Etienne\github  
-  
-   > 16/06/2015  21:28    <REP>          .  
-     16/06/2015  21:28    <REP>          ..  
-     16/06/2015  21:28    <REP>          howtos-gregorio  
+        Répertoire de C:\Users\Etienne\github  
+
+        16/06/2015  21:28    <REP>          .  
+        16/06/2015  21:28    <REP>          ..  
+        16/06/2015  21:28    <REP>          howtos-gregorio  
                   0 fichier(s)                0 octets  
                   3 Rép(s)  531.393.871.872 octets libres  
-  
+
 12. cd howtos-gregorio  
-   > C:\Users\Etienne\github>  
-     cd howtos-gregorio  
+        C:\Users\Etienne\github>  
+        cd howtos-gregorio  
 
 13. C:\Users\Etienne\github\howtos-gregorio>
-   > dir  
-     Le volume dans le lecteur C s’appelle HP   
-     Le numéro de série du volume est 2C7C-F0D4   
-   
-   > Répertoire de C:\Users\Etienne\github\howtos-gregorio   
-  
-   > 16/06/2015  21:28    <REP>          .   
-     16/06/2015  21:28    <REP>          ..   
-     16/06/2015  21:28             1.262 README.md   
-     16/06/2015  21:28                 0 Readme.txt   
-     16/06/2015  21:28               867 test.md   
-                    3 fichier(s)            2.129 octets   
-                    2 Rép(s)  531.393.871.872 octets libres   
+        dir  
+        Le volume dans le lecteur C s’appelle HP
+        Le numéro de série du volume est 2C7C-F0D4
 
-14. __gvim README.md__   
-   > C:\Users\Etienne\github\howtos-gregorio>   
-   > gvim README.md   
+        Répertoire de C:\Users\Etienne\github\howtos-gregorio
+
+        16/06/2015  21:28    <REP>          .
+        16/06/2015  21:28    <REP>          ..
+        16/06/2015  21:28             1.262 README.md
+        16/06/2015  21:28                 0 Readme.txt
+        16/06/2015  21:28               867 test.md
+                    3 fichier(s)            2.129 octets
+                    2 Rép(s)  531.393.871.872 octets libres
+
+14. __gvim README.md__
+        C:\Users\Etienne\github\howtos-gregorio>
+        gvim README.md
 
 
 #### ChangeLog  
 
-V. a0.01 Bd12 - 2015.06.17
+V. v.a0.13 - 2015.06.17
    * README.md - Ajout du versioning
    * README.md - Editor = gedit vs gvim
    * README.md - Ajout ChangeLog
    * README.md - :exclamation: (emoticon \:exclamation\:) cf. http://www.emoji-cheat-sheet.com  
                  (cf. _Pro Git_, a press, pdf téléchargeable online - 574 pp)
-                 
+   * README.md - git pull (depuis un autre PC : HPELITE)  
+   * README.md - Edition avec Notepad++  
+	 * README.md - Édition avec 'Atom' (for Windows)  
 
-### TODO 
-   [ ] Insertion d'images dans '*.md' (README.md etc. - Markdown)
-   [ ] Markdown Cheat Sheet.md (Mémemnto)
 
+
+
+### TODO
+   [ ] Insertion d'images dans '*.md' (README.md etc. - Markdown)*  
+   [ ] Markdown Cheat Sheet.md *(Mémemnto)*  
