@@ -26,9 +26,9 @@ GitHub tutorial  -  GitHub For Beginners: Don't Get Scared, Get Started
 
 ### Mémento - GitHub modifications
 
-#### Step 1. - vim README.md
+###### Step 1. - vim README.md
 
-#### Step 2. - get status
+###### Step 2. - get status
 
 Le fichier 'README.md' (modifié en 'Step 1') a le statut "rouge".
 
@@ -39,17 +39,17 @@ modifié ou nouvellement créé.
 
 git add README.md
 
-#### Step 4. - git status
+###### Step 4. - git status
 
 Le fichier 'README.md' ayant été ajouté à la liste d'attente ('git ad') 
 paraît en "vert" = prêt à être validé (ou 'committé')
 
-#### Step 5. - git commit
+###### Step 5. - git commit
 
 git commit -m "Message de commit" (Pq modif ou Description nouveau fichier
 
 
-#### Step 6. - git push
+###### Step 6. - git push
 
 git push
 
