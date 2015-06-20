@@ -1,4 +1,7 @@
-# howtos-gregorio
+README.md - v.a0.16 - 2015.06.20
+mar 16.06.2015 (Date de création)
+
+## howtos-gregorio
 
 **atom Snippets (`atom README.md` - `atom ./Motchipou`)**
   + **bold** Snippet (**b** puis `Tab`)  
@@ -14,10 +17,7 @@
 
 **Ctrl+Shift+M** (Markdown split-screen preview)
 
-README.md - v.a0.15 - 2015.06.20
-mar 16.06.2015 (Date de création)
-
-### GitHub Cheat Sheet"
+## GitHub Cheat Sheet
 
 1. **vim** README.md (ou **atom** ./Motchipou)
 2. **git status** (README.md en _rouge_)
@@ -28,7 +28,7 @@ mar 16.06.2015 (Date de création)
 
 ### Google search : "GitHub Motchipou"
 
-### GitHub tutorial"
+### GitHub tutorial
 
 GitHub tutorial  -  GitHub For Beginners: Don't Get Scared, Get Started
 
