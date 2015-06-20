@@ -1,16 +1,34 @@
 # howtos-gregorio
 
-README.md - v.a0.14 - 2015.06.17
+**atom Snippets (`atom README.md` - `atom ./Motchipou`)**
+  + **bold** Snippet (**b** puis `Tab`)  
+  + *italic* Snippet (**i** puis `Tab`)  
+  (Tab navigation : `Ctrl+Tab` / `Ctrl+Shift+Tab` ou `Ctrl+PgUp` / `Ctrl+PgDn`)
+
+**Ctrl+Shift+P** (List of Commands)  
+  + Settings  
+  + Keybindings  
+  + Snippets
+  + etc.  
+    (Enclenchera tous les autres snippets)
+
+**Ctrl+Shift+M** (Markdown split-screen preview)
+
+README.md - v.a0.15 - 2015.06.20
 mar 16.06.2015 (Date de création)
 
-1. vim README.md
-2. git status (README.md en _rouge_)
-3. git add README.md
-4. git status (README.md en _vert_)
-5. git commit -m "README.md modif 3"
-6. git push (user:Motchipou - pwd:[xxxxx])
+### GitHub Cheat Sheet"
 
+1. **vim** README.md (ou **atom** ./Motchipou)
+2. **git status** (README.md en _rouge_)
+3. **git add** README.md
+4. **git status** (README.md en _vert_)
+5. **git commit -m "README.md modif 15"**
+6. **git push** (user:Motchipou - pwd:[xxxxx])
 
+### Google search : "GitHub Motchipou"
+
+### GitHub tutorial"
 
 GitHub tutorial  -  GitHub For Beginners: Don't Get Scared, Get Started
 
