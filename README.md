@@ -1,7 +1,12 @@
-README.md - v.a0.16 - 2015.06.20
-mar 16.06.2015 (Date de création)
+README.md - v.a0.17 - 2016.02.28 (2015.06.20)
+Created             : mar 16.06.2015
+Last modified       : di  28.02.2016
 
 ## howtos-gregorio
+
+## TODOS
+  + **install**
+  + **uploader les fichiers install - (/home/frado/Dropbox/Gregorio/install/)
 
 **atom Snippets (`atom README.md` - `atom ./Motchipou`)**
   + **bold** Snippet (**b** puis `Tab`)  
