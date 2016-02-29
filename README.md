@@ -1,6 +1,8 @@
-README.md - v.a0.18 - 2016.02.29 (2016.02.29)
-Created             : mar 16.06.2015
-Last modified       : lu  29.02.2016
+README.md - v.a0.19 - 2016.02.29 (2016.02.29)  
+Created             : mar 16.06.2015  
+Last modified       : lu  29.02.2016  
+=> from **frado@gregorio** (ThinkPad X61s)  
+
 
 ## howtos-gregorio
 

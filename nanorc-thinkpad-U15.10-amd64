@@ -1,0 +1,197 @@
+## Fichier : ~/.nanorc (ThinkPad - X61s - frado@gregorio - Ubuntu 15.10-amd64)
+## nano 2.4.2 (default - Ubuntu 15.10-amd64)
+
+include ~/.nano/syntax/ALL.nanorc
+
+## alias nnanorc="nano ~/.nanorc"
+
+## Paint the interface elements of nano.
+## This is an example; by default there are no colors.
+set titlecolor brightwhite,blue
+set statuscolor brightwhite,green
+set keycolor green
+set functioncolor yellow
+
+## Cf. /usr (man nano; fin du manuel) - Added 27.02.2016
+
+
+
+# Windows (notepad) like keybinding for nano editor
+# written by zonuexe, license under GPLv3 or NYSL(0.9982)
+# lastupdate: h240921 (11.10.2015)
+# GitHub : https://gist.github.com/zonuexe/3760480
+#
+# how to install
+# a. rename and move this file to $HOME/.nanorc
+#    % mv nanorc.keybindings $HOME/.nanorc
+# b. concatenate this file with tail of $HOME/.nanorc
+#    % cat nanorc.keybindings >> $HOME/.nanorc
+
+## Rajouté - 27.02.2016 (^K avec le 'win-nanorc'... 'Commande inconnue') => voir plus bas
+bind ^K mark         main
+#bind ^T firstline   main
+#bind ^E lastline    main
+
+
+##bind ^B browser    main
+#bind ^C copytext    main
+#bind ^F whereis     main
+## bind ^G gotoline  main
+## F5 Lire fich.
+#bind F5 gotoline    main
+#bind ^I indent      main
+## bind ^N exit      main
+#bind ^Q exit        main
+#bind ^Q exit        help
+#bind ^M enter       main
+#bind ^S writeout    main
+#bind ^R replace     main
+#bind ^V uncut       main
+#bind ^X cut         main
+#bind ^Y redo        main
+#bind ^Z undo        main
+
+
+
+## bind F1 help      main
+#bind F3 whereis     main
+##bind F3 nexthistory search
+
+
+### ----------------- Angry Monkey settings ---------------------------------------
+### http://angrymonkey.webfactional.com/wiki/view/CUA_key_bindings_for_nano -------
+
+# Make tab indentation not rubbish
+set autoindent
+
+# Contantly display the cursor position
+set const
+
+# Makes the top line available for editing
+set morespace
+
+# If the mouse is available, use it to change cursor position.
+set mouse
+
+# Don't add a new line to the end of files.
+set nonewlines
+
+# Smooth scrolling
+set smooth
+
+# No line wrapping, but display the line without scrolling.
+set nowrap
+set softwrap
+
+# apparently experimental undo code.
+# set undo
+
+# Allow inserting files into their own buffers
+set multibuffer
+
+### Key Bindings
+
+## These key bindings attempt to make nano more CUA-like within the limits
+## of available actions and what it will let the user bind. We can't bind
+## to shift, unfortunately.
+
+## All the typical CUA actions are listed in comments with their key binding ;
+## if the function is missing, we unbind that key.
+
+## Files
+# New
+unbind ^N               all
+# open, assuming multibuffer is enabled
+bind   ^O  insert       main
+# reload
+unbind ^R               all
+unbind F5               all
+# save
+bind   ^S  writeout     all
+unbind F3               all
+# next file, ^tab
+# previous file, shift-^tab
+# close
+unbind ^W               all
+# close all/quit
+bind   ^Q  exit         all
+unbind F2               all
+
+# Beginning of file/buffer, ^khome
+# End of file/buffer,       ^kend
+# Page up,                  ^kpup,   default
+unbind F7               all
+# Page down,                ^kpdown, default
+unbind F8               all
+# Beginning of line,         home,   default
+# End of line,               end,    default
+# Back one word,            ^left
+# Forward one word,         ^right
+
+# Search forward
+bind   ^F  whereis      all
+unbind F6  all
+# Repeat last search
+#bind   F3  searchagain  search
+#bind   ^G  searchagain  search
+# Repeat last search backward
+
+# Cut
+bind   ^X  cut          all
+unbind ^K               all
+unbind F9               all
+
+# Pose marque (commutateur => 'posée'/'enlevée')
+bind   ^K  mark         main
+
+# Copy
+bind   ^C  copytext     all
+# Paste
+bind   ^V  uncut        all
+unbind ^U               all
+unbind F10              all
+# Undo
+bind   ^Z  undo         all
+# Redo
+bind   ^Y  redo         all
+# Select all,             ^A
+# Help
+bind   ^H  help         all
+unbind ^G  main
+
+## For want of a useable CUA key binding, using the Emacs one.
+# Cancel
+bind   ^]  cancel       all
+bind   F2  cancel       all
+# Change to next file
+bind   F10 nextbuf      all
+# Change to previous file
+bind   F12 prevbuf      all
+
+## Emacs brain damage compensation
+#bind   ^A  home         all
+#bind   ^E  end          all
+
+## Extra nano functions not covered in CUA
+
+# Goto a sepcific line
+bind   ^G  gotoline     main
+bind   F11 wordcount    main
+# Can't use ^M, it binds to enter/return!
+#F15bind   ^T  mark         all
+# F15 = Shift+F3
+
+# Drop these so more useful things appear in help.
+unbind ^T               all
+#unbind F12              all
+#unbind F11              all
+unbind  M-|              all
+unbind  M-?              all
+
+
+## Added 27.02.2016
+bind ^T firstline    main
+bind ^A firstline    main
+bind ^E lastline     main
+
+
