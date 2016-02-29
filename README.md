@@ -1,26 +1,49 @@
-README.md - v.a0.17 - 2016.02.28 (2015.06.20)
+README.md - v.a0.18 - 2016.02.29 (2016.02.29)
 Created             : mar 16.06.2015
-Last modified       : di  28.02.2016
+Last modified       : lu  29.02.2016
 
 ## howtos-gregorio
 
-## TODOS
-  + **install**
-  + **uploader les fichiers install - (/home/frado/Dropbox/Gregorio/install/)
+## Install sur Mac - 1re utilisation Pré-Cheat Sheet  
+  **Step 1** - Prépa dossier de clonage
+      $ cd  
+      $ mkdir git  
+      $ cd git  
+  
+  **Step 2** - Git Clone  
+      $ git clone https://github.com/Motchipou/howtos-gregorio.git  
+      $ ls  
+      $ cd howtos-gregorio
 
-**atom Snippets (`atom README.md` - `atom ./Motchipou`)**
+  **Step 3** - Git config  
+      $ git config --global.user.name "Motchipou"   
+      $ git config --global.user.email "moreau.etienne@gmail.com"  
+  **Step 4** - Git folder active ?  
+      $ pwd
+  **Step 5** - Git status  
+      $ git status
+   
+
+       
+
+## TODOS
+  + **install**  
+  + **uploader les fichiers install - (/home/frado/Dropbox/Gregorio/install/)  
+  + **nanorc** (dotfiles on 'gdrive'**
+  
+**atom Snippets (`atom README.md` - `atom ./Motchipou`)**  
   + **bold** Snippet (**b** puis `Tab`)  
   + *italic* Snippet (**i** puis `Tab`)  
-  (Tab navigation : `Ctrl+Tab` / `Ctrl+Shift+Tab` ou `Ctrl+PgUp` / `Ctrl+PgDn`)
+  (Tab navigation : `Ctrl+Tab` / `Ctrl+Shift+Tab` ou `Ctrl+PgUp` / `Ctrl+PgDn`)  
 
 **Ctrl+Shift+P** (List of Commands)  
   + Settings  
   + Keybindings  
-  + Snippets
+  + Snippets  
   + etc.  
-    (Enclenchera tous les autres snippets)
+    (Enclenchera tous les autres snippets)  
 
-**Ctrl+Shift+M** (Markdown split-screen preview)
+**Ctrl+Shift+M** (Markdown split-screen preview)  
 
 ## GitHub Cheat Sheet
 
