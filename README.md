@@ -5,27 +5,29 @@ Last modified       : lu  29.02.2016
 ## howtos-gregorio
 
 ## Install sur Mac - 1re utilisation Pré-Cheat Sheet  
-  **Step 1** - Prépa dossier de clonage
-      $ cd  
-      $ mkdir git  
-      $ cd git  
+  **Step 1** - **Prépa dossier de clonage**  
+	$ cd  
+	$ mkdir git  
+	$ cd git  
   
-  **Step 2** - Git Clone  
-      $ git clone https://github.com/Motchipou/howtos-gregorio.git  
-      $ ls  
-      $ cd howtos-gregorio
-
-  **Step 3** - Git config  
-      $ git config --global.user.name "Motchipou"   
-      $ git config --global.user.email "moreau.etienne@gmail.com"  
-  **Step 4** - Git folder active ?  
-      $ pwd
-  **Step 5** - Git status  
-      $ git status
+  **Step 2** - **Git Clone**  
+	$ git clone https://github.com/Motchipou/howtos-gregorio.git  
+	$ ls  
+	$ cd howtos-gregorio  
+  
+  **Step 3** - **Git config**  
+	$ git config --global.user.name "Motchipou"   
+	$ git config --global.user.email "moreau.etienne@gmail.com"  
+  
+  **Step 4** - **Git folder active ?**  
+      $ pwd  
+  
+  **Step 5** - **Git status**  
+      $ git status  
    
-
-       
-
+  
+  
+  
 ## TODOS
   + **install**  
   + **uploader les fichiers install - (/home/frado/Dropbox/Gregorio/install/)  

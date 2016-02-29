@@ -1,0 +1,4 @@
+# .bashrc
+
+alias cls="clear"
+
