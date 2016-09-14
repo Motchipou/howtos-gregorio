@@ -1,7 +1,11 @@
 README.md - v.a0.19 - 2016.02.29 (2016.02.29)  
-Created             : mar 16.06.2015  
-Last modified       : lu  29.02.2016  
-=> from **frado@gregorio** (ThinkPad X61s)  
+`Created             : mar 16.06.2015`  
+`Last modified       : me  14.09.2016`  
+`=> from **frado@gregorio** (ThinkPad X61s)`  
+
+
+`Modified            : lu  29.02.2016`  
+`=> from **frado@gregorio** (ThinkPad X61s)`  
 
 
 ## howtos-gregorio
@@ -9,22 +13,22 @@ Last modified       : lu  29.02.2016
 ## Install sur Mac - 1re utilisation Pré-Cheat Sheet  
   **Step 1** - **Prépa dossier de clonage**  
 
-	$ cd  
-	$ mkdir git  
-	$ cd git  
+    	$ cd  
+    	$ mkdir git  
+    	$ cd git  
 
   
   **Step 2** - **Git Clone**  
 
-	$ git clone https://github.com/Motchipou/howtos-gregorio.git  
-	$ ls  
-	$ cd howtos-gregorio  
+    	$ git clone https://github.com/Motchipou/howtos-gregorio.git  
+    	$ ls  
+    	$ cd howtos-gregorio  
 
   
   **Step 3** - **Git config**  
 
-	$ git config --global.user.name "Motchipou"   
-	$ git config --global.user.email "moreau.etienne@gmail.com"  
+    	$ git config --global.user.name "Motchipou"   
+    	$ git config --global.user.email "moreau.etienne@gmail.com"  
   
 
   **Step 4** - **Git folder active ?**  
@@ -41,15 +45,15 @@ Last modified       : lu  29.02.2016
 ## Install sur Windows 10 - 1re utilisation Pré-Cheat Sheet  
   **Step 1** - **Prépa dossier de clonage**  
 
-  $ cd  
-  $ mkdir git  
-  $ cd git  
+      $ cd  
+      $ mkdir git  
+      $ cd git  
 
   
   **Step 2** - **Git config**  
 
-  $ git config --global.user.name "Motchipou"   
-  $ git config --global.user.email "moreau.etienne@gmail.com"  
+      $ git config --global.user.name "Motchipou"   
+      $ git config --global.user.email "moreau.etienne@gmail.com"  
   
 
   **Step 3** - **Git Clone**  
@@ -62,10 +66,10 @@ Last modified       : lu  29.02.2016
   
   **Step 4** - **Git folder active ?**  
 
-  *Windows Command Line - bash Windows*  
-      $ pwd  
-  soit  
-  *Windows Explorer / FreeCommander...*  
+      *Windows Command Line - bash Windows*  
+          $ pwd  
+      soit  
+      *Windows Explorer / FreeCommander...*  
   
   
   **Step 5** - **Git status**  
