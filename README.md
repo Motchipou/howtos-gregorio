@@ -54,16 +54,18 @@ Last modified       : lu  29.02.2016
 
   **Step 3** - **Git Clone**  
 
-  $ git clone https://github.com/Motchipou/howtos-gregorio.git  
-  $ ls  
-  $ cd howtos-gregorio  
-  $ ls  
+      $ git clone https://github.com/Motchipou/howtos-gregorio.git  
+      $ ls  
+      $ cd howtos-gregorio  
+      $ ls  
 
   
   **Step 4** - **Git folder active ?**  
 
-  $ pwd  
-  (ou => Windows Explorer / FreeCommander...)
+  *Windows Command Line - bash Windows*  
+      $ pwd  
+  soit  
+  *Windows Explorer / FreeCommander...*  
   
   
   **Step 5** - **Git status**  
