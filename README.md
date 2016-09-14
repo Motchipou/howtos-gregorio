@@ -36,7 +36,42 @@ Last modified       : lu  29.02.2016
 
       $ git status  
    
+ 
+
+## Install sur Windows 10 - 1re utilisation Pré-Cheat Sheet  
+  **Step 1** - **Prépa dossier de clonage**  
+
+  $ cd  
+  $ mkdir git  
+  $ cd git  
+
   
+  **Step 2** - **Git config**  
+
+  $ git config --global.user.name "Motchipou"   
+  $ git config --global.user.email "moreau.etienne@gmail.com"  
+  
+
+  **Step 3** - **Git Clone**  
+
+  $ git clone https://github.com/Motchipou/howtos-gregorio.git  
+  $ ls  
+  $ cd howtos-gregorio  
+  $ ls  
+
+  
+  **Step 4** - **Git folder active ?**  
+
+  $ pwd  
+  (ou => Windows Explorer / FreeCommander...)
+  
+  
+  **Step 5** - **Git status**  
+
+      $ git status  
+
+
+
   
   
 ## TODOS
