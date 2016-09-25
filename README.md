@@ -1,9 +1,9 @@
-README.md - v.a0.19 - 2016.02.29 (2016.02.29)  
+README.md - v.a0.22 - 2016.09.26 (2016.09.26)  
 `Created             : mar 16.06.2015`  
 `Last modified       : lu  26.09.2016`  
-`=> from **frado@gregorio** (ThinkPad X61s)`  
 
-
+`Modified            : lu  26.09.2016`  
+`=> from **steph@medion240ssd**`  
 `Modified            : lu  29.02.2016`  
 `=> from **frado@gregorio** (ThinkPad X61s)`  
 
