@@ -1,6 +1,6 @@
 README.md - v.a0.19 - 2016.02.29 (2016.02.29)  
 `Created             : mar 16.06.2015`  
-`Last modified       : me  14.09.2016`  
+`Last modified       : me  25.09.2016`  
 `=> from **frado@gregorio** (ThinkPad X61s)`  
 
 
@@ -27,8 +27,8 @@ README.md - v.a0.19 - 2016.02.29 (2016.02.29)
   
   **Step 3** - **Git config**  
 
-    	$ git config --global.user.name "Motchipou"   
-    	$ git config --global.user.email "moreau.etienne@gmail.com"  
+    	$ git config --global user.name "Motchipou"   
+    	$ git config --global user.email "moreau.etienne@gmail.com"  
   
 
   **Step 4** - **Git folder active ?**  
